@@ -47,4 +47,9 @@ public class User
     {
         System.out.println( "Hello World!" );
     }
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", username=" + username + ", password=" + password + ", nickname=" + nickname
+				+ ", birth=" + birth + "]";
+	}
 }

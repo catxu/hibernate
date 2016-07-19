@@ -24,7 +24,7 @@ public class FirstTest {
 		User u = new User();
 		u.setNickname("阿黄");
 		u.setPassword("123");
-		u.setUsername("狗哥");
+		u.setUsername("狗2哥");
 		u.setBirth(new Date());
 		session.save(u);
 		session.getTransaction().commit();
