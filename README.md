@@ -1,5 +1,8 @@
-# hibernate
+# Hibernate
 面向对象的数据持久化框架
+
+Hibernate 的三种状态：
+transient(瞬时状态)，persistent(持久化状态)以及detached(离线状态)
 
 JBoss for STS:
 http://tools.jboss.org/downloads/jbosstools/mars/4.3.1.Final.html#zips
